@@ -1,0 +1,23 @@
+.PropertyCard{
+    margin: 10px 20px;
+    padding: 10px 10px;
+}
+
+.propertyImage{
+    height: 400px;
+    width: 400ox;
+}
+
+.button{
+    margin: 10px 10px;
+}
+
+@media screen and (max-width:400px) {
+    .propertyImage{
+        height: 200px;
+        width: 200ox;
+    }
+    .PropertyCard {
+        text-align: center;
+    }
+}

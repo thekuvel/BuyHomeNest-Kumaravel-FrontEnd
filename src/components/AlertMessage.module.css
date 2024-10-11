@@ -1,0 +1,5 @@
+.stickyCard{
+    position: fixed;
+    right: 0;
+    width: fit-content;
+}
