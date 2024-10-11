@@ -4,7 +4,7 @@ import { logout } from "../../general/logout"
 import { jwtDecode } from "jwt-decode";
 import AlerMessageCard from "../../components/AlertMessage";
 
-import BuyHomeNest_Logo from "../../assets/BuyHomeNest_Logo.png"
+import BuyHomeNest_Logo from "../../assets/BuyHomeNest_logo.png"
 
 const links = [
     {
