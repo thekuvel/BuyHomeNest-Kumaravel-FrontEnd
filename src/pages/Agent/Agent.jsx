@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Navigate} from "react-router-dom";
 import { getAllContact } from "../../apiCalls/users.js";
 import { useDispatch } from "react-redux";
-import ContactAgentCard from "../../components/contactAgentCard.jsx";
+import ContactAgentCard from "../../components/ContactAgentCard.jsx";
 
 function Agent(){
 
