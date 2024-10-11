@@ -41,7 +41,7 @@ function Agent(){
 
     return(
         <>
-        <h5>Agent Page</h5>
+        <h5>Agent Page - Users who want to connect with agents.</h5>
 
         <div className={`row ${style.userCard}`}>
             <div className="col-12 col-lg-3 mb-3">

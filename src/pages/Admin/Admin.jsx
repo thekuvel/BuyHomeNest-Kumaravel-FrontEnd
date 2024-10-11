@@ -28,7 +28,7 @@ function Admin(){
 
     return (
         <>
-            <h5>Admin</h5>
+            <h5>Admin page - Displays all agents</h5>
             {agents.map((user)=>(
                 <UserCard user={user} key={user._id}/>
             ))}
