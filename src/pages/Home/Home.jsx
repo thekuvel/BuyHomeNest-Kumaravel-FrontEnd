@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getAllProperties } from "../../apiCalls/propertiesAPI"
-import PropertyCard from "../../components/PropertyCard";
+import PropertyCard from "../../components/PropertyCard.jsx";
 
 function Home() {
 

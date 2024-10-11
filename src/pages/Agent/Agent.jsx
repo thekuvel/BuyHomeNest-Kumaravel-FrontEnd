@@ -2,9 +2,9 @@ import style from "../../components/UserCard.module.css"
 import { jwtDecode } from "jwt-decode";
 import { useEffect, useState } from "react";
 import { Navigate} from "react-router-dom";
-import { getAllContact } from "../../apiCalls/users";
+import { getAllContact } from "../../apiCalls/users.js";
 import { useDispatch } from "react-redux";
-import ContactAgentCard from "../../components/contactAgentCard";
+import ContactAgentCard from "../../components/contactAgentCard.jsx";
 
 function Agent(){
 

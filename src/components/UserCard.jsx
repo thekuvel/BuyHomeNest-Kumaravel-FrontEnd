@@ -1,8 +1,8 @@
 
 import { useEffect, useState } from "react";
 import style from "./UserCard.module.css"
-import { deleteAgents, updateAgents } from "../apiCalls/users";
-import { logout } from "../general/logout";
+import { deleteAgents, updateAgents } from "../apiCalls/users.js";
+import { logout } from "../general/logout.js";
 import { useDispatch } from "react-redux";
 
 function UserCard({user}){

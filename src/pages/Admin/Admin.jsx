@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { getAllAgents } from "../../apiCalls/users";
-import UserCard from "../../components/UserCard";
+import { getAllAgents } from "../../apiCalls/users.js";
+import UserCard from "../../components/UserCard.jsx";
 import { Navigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
 
